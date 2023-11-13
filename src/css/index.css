@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #222629;
+  /* margin: 0;
+  display: flex; */
+  /* min-width: 100vw;
+  min-height: 100vh; */
+}
+
+#root{
+  background-color: #222629;
+  /* display: flex; */
+  /* min-width: 100vw; */
+}
+
+.App{
+  display: flex;
+  /* min-width: 100vw;
+  min-height: 100vh; */
+}

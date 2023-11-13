@@ -1,0 +1,47 @@
+#cursor{
+    border-left: 1px solid blue;
+    height: 100%;
+    width: 3px;
+    z-index: 100;
+}
+
+#waves{
+    height: 200px;
+}
+
+#tracks{
+    position: relative;
+}
+
+#board{
+    max-height: 350px;
+    height: 350px;
+    overflow: auto;
+}
+
+#audiosections{
+    max-height: 180px;
+    height: 180px;
+    overflow: auto;
+}
+
+#tracks > wave{
+    /* background-color: #6B6E70; */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+span{
+    z-index: 100 !important;
+    font-weight: bold;
+}
+
+div.marker-label > span{
+    color: red;
+    background-color: grey;
+    padding: 1px;
+    border-radius: 2px;
+}
+
